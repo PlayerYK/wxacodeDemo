@@ -1,0 +1,5 @@
+<!--miniprogram/pages/share/share.wxml-->
+
+<view wx:if="{{qr_url}}">
+<image style='width:700rpx;margin:25rpx;' mode="widthFix" src='{{qr_url}}'></image>
+</view>

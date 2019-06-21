@@ -1,0 +1,64 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wxf3ca775ef13711fb",
+	"projectname": "wxacode_demo",
+	"libVersion": "2.7.0",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 1,
+					"name": "demo",
+					"pathName": "pages/demo/demo",
+					"query": "id=1",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "share",
+					"pathName": "pages/share/share",
+					"query": "page=pages/demo/demo&id=1",
+					"scene": null
+				}
+			]
+		}
+	}
+}
