@@ -33,7 +33,7 @@ exports.main = async (event, context) => {
     const wxacodeResult = await cloud.openapi.wxacode.getUnlimited({
       scene: event.scene,
       page: event.page,
-      width: 240
+      width: 280 //二维码的宽度，单位 px，最小 280px，最大 1280px
     })
     // return wxacodeResult;
     if (wxacodeResult.errCode != 0) {
